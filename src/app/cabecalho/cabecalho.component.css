@@ -3,7 +3,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   margin: 0 20px;
-  color: #dddaaa;
+  color: #ffffff;
   height: 10%;
 }
 .logo {
@@ -19,7 +19,7 @@ nav ul li {
   list-style-type: none;
 }
 nav ul a {
-  color: #dddaaa;
+  color: #ffffff;
   text-decoration: none;
   padding: 10px 20px;
   margin: 0 10px;
