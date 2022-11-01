@@ -1,0 +1,10 @@
+footer {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: yellow;
+}

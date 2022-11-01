@@ -1,0 +1,40 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  color: #fff;
+  height: 10%;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  min-width: 150px;
+  border-radius: 6px;
+  background-color: #1178ff;
+  text-align: center;
+}
+
+nav ul a:hover {
+  opacity: .8;
+}
+
+img {
+  width: 50px;
+  margin: 0 20px;
+  border-radius: 50%;
+}
