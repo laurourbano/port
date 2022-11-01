@@ -11,5 +11,5 @@ export class CabecalhoComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  data = new Date().toLocaleDateString();
 }
