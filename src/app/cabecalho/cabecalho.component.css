@@ -1,19 +1,16 @@
 nav{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 20px;
+  flex-direction: column;
   color: #ffffff;
-  height: 10%;
+  height: 100%;
 }
 .logo {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 nav ul {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
 }
 nav ul li {
   list-style-type: none;
@@ -21,20 +18,20 @@ nav ul li {
 nav ul a {
   color: #ffffff;
   text-decoration: none;
-  padding: 10px 20px;
-  margin: 0 10px;
-  min-width: 150px;
+  padding: 5px 10px;
+  margin: 0 5px;
+  min-width: 160px;
   border-radius: 6px;
-  background-color: #1962c2;
-  text-align: center;
+  background-color: #2e71be;
 }
 
 nav ul a:hover {
-  opacity: .8;
+  opacity: .9;
+  background-color: #255fa1;
 }
 
 img {
   width: 50px;
-  margin: 0 20px;
+  margin: 0 10px;
   border-radius: 50%;
 }
